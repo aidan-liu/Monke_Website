@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monke - Uncensored & Simplified News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <a href="/">
+                        <img src="assets/banana.svg" alt="Monke Logo" class="logo-svg"/>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="https://github.com/aidan-liu/Monke" target="_blank">Github</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#join">Join Us!</a></li>
+                </ul>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <div class="toggle-container">
+                    <div class="toggle-fill"></div>
+                    <div class="toggle-icon light-icon">
+                        <img src="assets/light_mode.svg" alt="Light Mode">
+                    </div>
+                    <div class="toggle-icon dark-icon">
+                        <img src="assets/dark_mode.svg" alt="Dark Mode">
+                    </div>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-image animate-fade-in">
+                <img src="assets/monkey_with_glasses.svg" alt="Monkey with Glasses" class="hero-monke">
+            </div>
+            <div class="hero-text animate-slide-up">
+                <p class="beta-tag">Now releasing in beta 1.0</p>
+                <h1>Uncensored & Simplified.<br>Truthful news, from both sides.</h1>
+                <button class="download-btn">Download</button>
+                <p class="availability">Available for iOS</p>
+            </div>
+            <div class="scroll-indicator">
+                <svg width="30" height="50" viewBox="0 0 30 50">
+                    <path d="M5 15 L15 25 L25 15" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5 25 L15 35 L25 25" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Text Section with Parallax -->
+    <section class="sticky-section" id="features">
+        <div class="sticky-container">
+            <div class="scrolling-content">
+                <!-- Horizontal Scroll Cards Section 1 -->
+                <div class="scroll-section">
+                    <h3 class="scroll-section-title">Keep everything<br><span class="highlight">in one place</span></h3>
+                    <div class="horizontal-scroll">
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Feature 1">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">📰</div>
+                                <h4>Unbiased News</h4>
+                                <p>Get the full story from all perspectives without bias or sensationalism.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Feature 2">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">✨</div>
+                                <h4>Simplified Content</h4>
+                                <p>Complex topics made easy to understand with clear summaries.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Feature 3">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">🔍</div>
+                                <h4>Fact-Checked</h4>
+                                <p>Every article is thoroughly verified for accuracy and truth.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Feature 4">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">🌍</div>
+                                <h4>Global Coverage</h4>
+                                <p>Stay informed with news from around the world in one place.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Feature 5">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">⚡</div>
+                                <h4>Real-Time Updates</h4>
+                                <p>Breaking news delivered instantly as events unfold.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Horizontal Scroll Cards Section 2 -->
+                <div class="scroll-section">
+                    <h3 class="scroll-section-title">Powerful <span class="highlight">tools</span><br>made for everyone</h3>
+                    <div class="horizontal-scroll">
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Tool 1">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">📊</div>
+                                <h4>Custom Feed</h4>
+                                <p>Personalize your news feed based on topics you care about.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Tool 2">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">🔔</div>
+                                <h4>Smart Notifications</h4>
+                                <p>Get alerts for stories that matter most to you.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Tool 3">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">💾</div>
+                                <h4>Save & Share</h4>
+                                <p>Bookmark articles and share them with your network.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Tool 4">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">📈</div>
+                                <h4>Trend Analysis</h4>
+                                <p>See what topics are trending and why they matter.</p>
+                            </div>
+                        </div>
+                        <div class="scroll-card animate-on-scroll">
+                            <div class="card-image">
+                                <img src="assets/monkey_with_glasses.svg" alt="Tool 5">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-icon">🎯</div>
+                                <h4>Focus Mode</h4>
+                                <p>Distraction-free reading for deep dives into stories.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Horizontal Scroll Cards Section 3 -->
+                <div class="scroll-section scroll-section-3">
+                    <h3 class="scroll-section-title section-3-title">Controlled by you,<br><span class="highlight">secured</span> by us</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section 1 -->
+    <section class="info-section left-align" id="about">
+        <div class="container">
+            <div class="info-content animate-on-scroll">
+                <h2>News without the noise.</h2>
+                <p>In a world of information overload, we cut through the clutter. Monke delivers only what matters, stripped of sensationalism and bias. Clean, clear, and completely honest.</p>
+            </div>
+            <div class="info-image animate-on-scroll">
+                <div class="device-mockup">
+                    <div class="mockup-screen">
+                        <div class="news-preview">
+                            <div class="news-item"></div>
+                            <div class="news-item"></div>
+                            <div class="news-item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section 2 -->
+    <section class="info-section right-align">
+        <div class="container">
+            <div class="info-image animate-on-scroll">
+                <div class="comparison-view">
+                    <div class="side left-side">
+                        <span class="label">Left</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="side right-side">
+                        <span class="label">Right</span>
+                    </div>
+                </div>
+            </div>
+            <div class="info-content animate-on-scroll">
+                <h2>Both sides of the story.</h2>
+                <p>Every issue has multiple perspectives. We present viewpoints from across the political spectrum, empowering you to understand the complete picture and think critically.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section 3 -->
+    <section class="info-section left-align">
+        <div class="container">
+            <div class="info-content animate-on-scroll">
+                <h2>Your news, your way.</h2>
+                <p>Customize your experience with personalized feeds, smart notifications, and powerful tools that put you in control of your news consumption.</p>
+            </div>
+            <div class="info-image animate-on-scroll">
+                <div class="features-grid">
+                    <div class="feature-box feature-box-1">
+                        <div class="feature-icon">📊</div>
+                    </div>
+                    <div class="feature-box feature-box-2">
+                        <div class="feature-icon">🔔</div>
+                    </div>
+                    <div class="feature-box feature-box-3">
+                        <div class="feature-icon">💾</div>
+                    </div>
+                    <div class="feature-box feature-box-4">
+                        <div class="feature-icon">⚡</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup Section -->
+    <section class="newsletter-section" id="join">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Stay <span class="highlight">informed</span></h2>
+                <p class="newsletter-subtitle">Be part of a community that values truth, transparency, and thoughtful discourse. Sign up for our newsletter and join the growing Monke community.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="e.g. johndoe@example.com" class="newsletter-input" required>
+                    <button type="submit" class="newsletter-btn">Sign up</button>
+                </form>
+                <p class="newsletter-note">Trusted by more than 15 million people</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="donate">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/banana.svg" alt="Monke Logo" width="50" height="50">
+                </div>
+                <div class="footer-links">
+                    <a href="#github">Github</a>
+                    <a href="donate.html">Donate</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#terms">Terms</a>
+                </div>
+                <p class="copyright">&copy; 2025 Monke. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Download Modal -->
+    <div class="download-modal" id="downloadModal">
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="qr-code-container">
+                <img src="assets/qr-code.png" alt="QR Code" class="qr-code">
+            </div>
+            <p class="qr-text">Scan the QR to download the app to your phone</p>
+            <button class="download-link-btn">
+                <span class="phone-icon">📱</span> Download Monke
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
