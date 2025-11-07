@@ -13,18 +13,25 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-left">
-                <div class="nav-logo">
-                    <a href="/">
-                        <img src="assets/banana.svg" alt="Monke Logo" class="logo-svg"/>
-                    </a>
+            <div class="nav-left" style="display: flex; justify-content: space-between; width: 100%;">
+                <div style="display: flex; align-items: center; gap: 2rem;">
+                    <div class="nav-logo">
+                        <a href="/">
+                            <img src="assets/banana.svg" alt="Monke Logo" class="logo-svg"/>
+                        </a>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="https://github.com/aidan-liu/Monke" target="_blank">Github</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#join">Join Us!</a></li>
+                    </ul>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="https://github.com/aidan-liu/Monke" target="_blank">Github</a></li>
-                    <li><a href="donate.html">Donate</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#join">Join Us!</a></li>
-                </ul>
+                <div style="margin-right: 2rem;">
+                    <ul class="nav-links">
+                        <li><a href="developer.html">Meet the Developer</a></li>
+                    </ul>
+                </div>
             </div>
             <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
                 <div class="toggle-container">
@@ -49,13 +56,12 @@
                 
                 <div class="donation-options">
                     <h3>Donate via Zelle</h3>
-                    <div class="zelle-info">
-                        <div class="zelle-number">
+                    <div class="contact-info">
+                        <div class="contact-item">
                             <span class="info-label">Phone Number:</span>
-                            <span class="info-value">(832) 955-2419</span>
+                            <span class="info-link">(832) 955-2419</span>
                         </div>
                     </div>
-                    <p class="zelle-note">Every contribution, big or small, helps us maintain our mission of delivering unbiased news.</p>
                 </div>
 
                 <div class="recruiter-section">
@@ -69,27 +75,7 @@
                     </div>
                 </div>
 
-                <div class="donation-impact">
-                    <h3>Your Impact</h3>
-                    <div class="impact-grid">
-                        <div class="impact-item">
-                            <h4>$5</h4>
-                            <p>Helps fact-check one article</p>
-                        </div>
-                        <div class="impact-item">
-                            <h4>$25</h4>
-                            <p>Supports a week of server costs</p>
-                        </div>
-                        <div class="impact-item">
-                            <h4>$50</h4>
-                            <p>Funds global news coverage</p>
-                        </div>
-                        <div class="impact-item">
-                            <h4>$100</h4>
-                            <p>Enables new feature development</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
